@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>MyApplication</id>
+		<title>MyApplication</title>
+		<version>$version$</version>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>A Database Deployment Package</description>
+	</metadata>
+	<files>
+		<file src="bin\Release\*.*" target="content" />
+        <file src="deployment\DeploySettings.publish.xml" target="content" />
+        <file src="deployment\Deploy.ps1" target="content" />
+	</files>
+</package>

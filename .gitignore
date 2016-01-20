@@ -1,0 +1,10 @@
+.bundle
+.DS_Store
+.sass-cache
+.gist-cache
+.pygments-cache
+sass.old
+vendor
+node_modules
+deploy\
+public\

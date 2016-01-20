@@ -1,0 +1,12 @@
+{
+    "version": "0.1.0",
+    "command": "hugo",
+    "isShellCommand": true,
+    "tasks": [
+        {
+            "taskName": "server",
+            "args": ["server", "-d deploy"],
+            "isBuildCommand": true
+        }
+    ]
+}
