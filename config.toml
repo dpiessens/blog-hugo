@@ -1,0 +1,41 @@
+# Main configuration file
+baseurl = "http://www.danpiessens.com"
+title = "Another Level of Indirection"
+canonifyurls = true
+footnotereturnlinkcontents = "↩"
+paginate = 10
+theme = "hugo-icarus-theme"
+languageCode = "en-us"
+author = "Dan Piessens"
+
+googleAnalytics = "UA-46643958-2"
+disqusShortname = "dpiessens"
+
+# permalinks = 
+#   post = /:year/:month/:day/:title/
+
+[params]
+  date_format = "2006-01-02"
+  site_description = "A journey through the endless maze of Agile, DevOps, technology and life."
+  author = "Dan Piessens"
+  copyright = "2015 Dan Piessens, All rights reserved.  Powered by [Hugo](//gohugo.io)."
+  avatar = "css/images/avatar.png"
+
+[params.widgets]
+  recent_articles = true
+  categories = true
+  tags = false
+  tag_cloud = true
+
+[params.profile]
+  follow_button = "https://www.github.com/dpiessens"
+
+[social]
+  twitter = "dpiessens"
+  github = "dpiessens"
+  linkedin = "danielpiessens"   
+
+[[params.menu]]
+    before = false
+    label  = "Categories"
+    link   = "categories/"

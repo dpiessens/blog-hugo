@@ -1,0 +1,9 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/dpiessens/dpiessens.github.io.git
+	branch = master
+	
+[submodule "hugo-icarus-theme"]
+	path = themes/hugo-icarus-theme
+	url = https://github.com/digitalcraftsman/hugo-icarus-theme.git
+	branch = master

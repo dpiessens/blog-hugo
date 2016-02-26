@@ -5,6 +5,7 @@ comments: true
 sharing: true
 categories:
 - Presentations
+tags:
 - .NET
 - DevOps
 ---
