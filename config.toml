@@ -1,5 +1,5 @@
 # Main configuration file
-baseurl = "http://www.danpiessens.com"
+baseurl = "http://www.danpiessens.com/"
 title = "Another Level of Indirection"
 canonifyurls = true
 footnotereturnlinkcontents = "↩"
