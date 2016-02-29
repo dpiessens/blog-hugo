@@ -3,7 +3,7 @@ title: "Deploying Databases With Octopus Deploy: Part 2"
 date: 2014-06-10T08:00:00-05:00
 comments: true
 sharing: true
-categories:categories: 
+categories:
 - Database
 - Deployment
 - Continuous Delivery
@@ -36,6 +36,6 @@ Building the deployment package in your CI server is simple. If you're using Tea
 
 Once you have the deployment package, setting this up in Octopus is really straight forward. Create a new deployment step, I chose "Deploy Database". Select the deployment package, the role you setup earlier and Configuration Variables feature to transform any needed settings.
 
-{{< figure src="/images/posts/DeployDatabaseProjectOctopusStep.png" >}}
+{{< img src="DeployDatabaseProjectOctopusStep.png" >}}
 
 Once you save that add a variable named *ConnectionString* to your deployment variables and set it for your environments. Once that's in place you should be able to deploy your EF database projects.
