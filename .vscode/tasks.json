@@ -5,7 +5,7 @@
     "tasks": [
         {
             "taskName": "server",
-            "args": ["server", "-d deploy", "-w=false"],
+            "args": ["server", "--destination=deploy", "-w=false"],
             "isBuildCommand": true
         }
     ]
